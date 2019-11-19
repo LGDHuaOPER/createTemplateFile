@@ -1,0 +1,22 @@
+{
+    // 默认argvs
+    "defaultArgvsValues": {
+        // 模板名字
+        // 可传普通字符串
+        "templateName": "index.jsx",
+        // 写入路径，不可为文件名
+        "writePath": "./",
+        // 文件名，将会作为组件名/类名，可传普通字符串或 '["a", "b"]'形式的
+        "fileName": "index",
+    },
+    constant: {
+        // 组件名/类名
+        varRegExp: '\^\[a-zA-Z_]\{1\}\\w\*\$',
+        // 兼容fileName传递'["a", "b"]'形式
+        fileNameRegExp: '\^\\[\(\.\*\?\)\\]\$',
+        // 文件后缀名RegExp
+        suffixRegExp: '\\.\[a-zA-Z0-9\]\{1,5\}\$',
+        // fallBack后缀名
+        "fallBackSuffix": ".jsx",
+    }
+}
