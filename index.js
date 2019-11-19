@@ -69,7 +69,6 @@ function createTemplateFile () {
             var rl = readline.createInterface({
                 input: process.stdin,
                 output: process.stdout,
-                prompt: '>>>>>>>>>>进入交互模式>>>>>>>>>>',
             });
 
             var rlQuestion_templateName = function () {

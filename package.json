@@ -1,0 +1,22 @@
+{
+  "name": "create-template-file",
+  "version": "1.0.0",
+  "description": "createTemplateFile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LGDHuaOPER/createTemplateFile.git"
+  },
+  "author": "LGDHuaOPER",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LGDHuaOPER/createTemplateFile/issues"
+  },
+  "homepage": "https://github.com/LGDHuaOPER/createTemplateFile#readme",
+  "dependencies": {
+    "fs-extra": "^8.1.0"
+  }
+}
