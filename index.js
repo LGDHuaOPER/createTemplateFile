@@ -31,11 +31,11 @@ function createTemplateFile () {
     
         // 必要参数：模板名字、写入路径、生成文件名、生成文件后缀
         var requiredArgvs = ['templateName', 'writePath', 'fileName']
-        var defaultArgvsValues = {
-            templateName: 'a.jsx',
+        var defaultArgvsValues = Object.assign({}, {
+            templateName: 'index.jsx',
             writePath: './',
             fileName: 'index',
-        };
+        }, config.defaultArgvsValues);
         // 传递参数解析处理后的对象
         var argvsValues = {};
         var notSetTimes = 0;
